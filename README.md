@@ -25,3 +25,5 @@ The regfile circuit contains 32 32 bits MIPS registers. It takes in rd, rd selec
 ### control
 
 ![picture of the control circuit](Assets/Control.png)
+
+The control is where all the instuctions are interpreted. Our control circuit contains an inner control circuit, which is where all the actual wiring and logic takes place. 
