@@ -26,6 +26,8 @@ The regfile circuit contains 32 32 bits MIPS registers. It takes in rd, rd selec
 
 ![picture of the control circuit](Assets/Control.png)
 
-The control is where all the instuctions are interpreted. Our control circuit contains an inner control circuit, which is where all the actual wiring and logic takes place. 
+The control is where all the instuctions are interpreted. Our control circuit contains an inner control circuit, which is where all the actual wiring and logic takes place. Doing this allowed us to easily overwrite the output values when a syscall instution is sent to the control, since syscall works as "Jalr $k0". 
 
 ![picture of the inner control circuit](Assets/Inner-Control.png)
+
+The inner contol itself consists of two helper circuits 
