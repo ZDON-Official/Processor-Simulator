@@ -2263,6 +2263,10 @@ c 1040fffd 20080077 10480006 20080061 10480007 20080073 10480008
     <comp lib="8" loc="(780,463)" name="Text">
       <a name="text" val="bus_we is 1 for lw"/>
     </comp>
+    <comp lib="8" loc="(896,265)" name="Text">
+      <a name="font" val="Palatino Linotype bolditalic 64"/>
+      <a name="text" val="Data Bus"/>
+    </comp>
     <comp loc="(710,1440)" name="TerminalController">
       <a name="facing" val="north"/>
     </comp>
@@ -2275,20 +2279,17 @@ c 1040fffd 20080077 10480006 20080061 10480007 20080073 10480008
     <wire from="(1030,1300)" to="(1060,1300)"/>
     <wire from="(1060,1300)" to="(1060,1450)"/>
     <wire from="(1060,1450)" to="(1060,1930)"/>
-    <wire from="(1060,1930)" to="(1060,2110)"/>
     <wire from="(1060,360)" to="(1060,590)"/>
     <wire from="(1060,360)" to="(1290,360)"/>
     <wire from="(1060,590)" to="(1060,890)"/>
     <wire from="(1060,890)" to="(1060,1300)"/>
     <wire from="(1140,1490)" to="(1140,1950)"/>
-    <wire from="(1140,1950)" to="(1140,2390)"/>
     <wire from="(1140,310)" to="(1140,550)"/>
     <wire from="(1140,550)" to="(1140,680)"/>
     <wire from="(1140,550)" to="(1290,550)"/>
     <wire from="(1140,680)" to="(1140,830)"/>
     <wire from="(1140,830)" to="(1140,1490)"/>
     <wire from="(1200,1470)" to="(1200,1910)"/>
-    <wire from="(1200,1910)" to="(1200,2370)"/>
     <wire from="(1200,320)" to="(1200,610)"/>
     <wire from="(1200,610)" to="(1200,650)"/>
     <wire from="(1200,610)" to="(1270,610)"/>
@@ -3655,6 +3656,10 @@ c 1040fffd 20080077 10480006 20080061 10480007 20080073 10480008
     </comp>
     <comp lib="8" loc="(1469,1077)" name="Text">
       <a name="text" val="switches the value of rt and rd"/>
+    </comp>
+    <comp lib="8" loc="(1494,450)" name="Text">
+      <a name="font" val="Palatino Linotype bolditalic 64"/>
+      <a name="text" val="Inner Circuit"/>
     </comp>
     <comp lib="8" loc="(1664,1657)" name="Text">
       <a name="text" val="error here"/>
