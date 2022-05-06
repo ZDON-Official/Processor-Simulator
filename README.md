@@ -3,7 +3,7 @@
 This project is a comnputer simulation which uses logisim to simulate a working processor and other I/O devices 
 
 This was implemented by Zohaib and Ying.
-This is version 1.0 of the project.
+This is version 1.0.0 of the project.
 
 # Getting Started!
 ------------------
@@ -22,7 +22,7 @@ The processor consists of the control, ALU, and instant-memory. It has both inpu
 ### Regfile
 The regfile circuit contains 32 32 bits MIPS registers. It takes in rd, rd select, rs select, rt select, and write enable. The circuit outputs rt and rs values. Rd is the input data value to the regfile and rd select is the register on which to store the data value when write enable is 1. Similarly, rt and rs are data output values, and rt-select an rs-select are the registers from which to retrieve data from
 
-### control
+### Control
 
 ![picture of the control circuit](Assets/Control.png)
 
@@ -30,4 +30,8 @@ The control is where all the instuctions are interpreted. Our control circuit co
 
 ![picture of the inner control circuit](Assets/Inner-Control.png)
 
-The inner contol itself consists of two helper circuits 
+The inner contol itself consists of two helper circuits, Opcode helper and ALU helper. The opcode helper is used for lw/sw/addi. the ALU helper, on the other hand, decided which ALU instuction to select. It takes in the first six bits from the instuction and compare them to MIPS fucc value for each instuction. for example, when the input to ALU helper is 100000, 0x20 in hex, the ALU select will be for the instuction add.
+
+### ALU
+
+![picture of the control circuit](Assets/ALU.png)
