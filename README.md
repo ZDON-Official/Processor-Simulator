@@ -35,3 +35,10 @@ The inner contol itself consists of two helper circuits, Opcode helper and ALU h
 ### ALU
 
 ![picture of the control circuit](Assets/ALU.png)
+ 
+ The ALU 
+
+
+## The Data Bus
+
+![The Data Bus](Assets/Data-Bus.png)
